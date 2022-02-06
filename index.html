@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    
+<!-- El núcleo Firebase JS SDK siempre es requerido y debe ser enlistado primero -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+<!-- TODO: Agregar los SDKs para los productos Firebase que quieras usar
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Configuración Firebase de tu aplicación web
+  var firebaseConfig = {
+    apiKey: "AIzaSyB5jm4Zv7wMLaHkRrStaPCHThGTjSwdugA",
+  authDomain: "carreras-c8954.firebaseapp.com",
+  databaseURL: "https://carreras-c8954-default-rtdb.firebaseio.com",
+  projectId: "carreras-c8954",
+  storageBucket: "carreras-c8954.appspot.com",
+  messagingSenderId: "503591199393",
+  appId: "1:503591199393:web:ebfb9d89293f0bb47346e0"
+  };
+
+  // Inicializar Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
